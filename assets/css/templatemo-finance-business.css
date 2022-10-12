@@ -416,6 +416,9 @@ header .navbar {
 .Modern-Slider .item-3 .img-fill {
 	background-image: url(../images/4.jpg);
 }
+.Modern-Slider .item-4 .img-fill {
+	background-image: url(../images/z.jpg);
+}
 
 .Modern-Slider .NextArrow{
   position:absolute;
@@ -780,7 +783,7 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 }
 
 .contact-us {
-	background-color: #f7f7f7;
+	background: linear-gradient(103deg, rgba(139,1,1,1) 0%, rgba(38,0,0,1) 100%, rgba(0,212,255,1) 100%);;
 	padding: 140px 0px;
 }
 
@@ -794,7 +797,7 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 }
 
 .callback-form .contact-form {
-	background-color: #7b0002;
+	
 	padding: 60px;
 	border-radius: 5px;
 	text-align: center;
@@ -925,19 +928,22 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 
 footer {
 	background-color: #232323;
-	padding: 80px 0px;
+	padding: 40px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	color: #fff;
 }
 
 footer h4 {
-	color: #fff;
+	color: aliceblue;
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 0.25px;
 	margin-bottom: 35px;
 }
 footer p {
-	color: #fff;
+	color:aliceblue;
 }
 
 footer ul.social-icons {
@@ -993,14 +999,15 @@ footer .contact-form input {
 	height: 40px;
 	line-height: 40px;
 	display: inline-block;
-	padding: 0px 15px;
+	padding: 0px 30px;
 	color: #aaa!important;
+	width: 170%;
 	background-color: #343434;
-	font-size: 13px;
+	font-size: 17px;
 	text-transform: none;
 	box-shadow: none;
 	border: none;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 footer .contact-form input:focus {
@@ -1012,6 +1019,7 @@ footer .contact-form input:focus {
 
 footer .contact-form textarea {
 	border-radius: 20px;
+	width: 170%;
 	height: 120px;
 	max-height: 200px;
 	min-height: 120px;
@@ -1023,7 +1031,7 @@ footer .contact-form textarea {
 	text-transform: none;
 	box-shadow: none;
 	border: none;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 footer .contact-form textarea:focus {
@@ -1077,19 +1085,37 @@ footer .contact-form button.filled-button:hover {
 }
 
 .sub-footer p {
-	color: #fff;
+	color: aliceblue;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 }
 
 .sub-footer a {
-	color: #fff;
+	color:aliceblue;
 }
 
 
-.page-heading {
+.page-heading1 {
 	text-align: center;
-	background-image: url(../images/page-heading-bg.jpg);
+	background-image: url(../images/pi.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+.page-heading2 {
+	text-align: center;
+	background-image: url(../images/ki.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+.page-heading3 {
+	text-align: center;
+	background-image: url(../images/co.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1097,7 +1123,21 @@ footer .contact-form button.filled-button:hover {
 	color: #fff;
 }
 
-.page-heading h1 {
+.page-heading1 h1 {
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+.page-heading2 h1 {
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+.page-heading3 h1 {
 	text-transform: capitalize;
 	font-size: 36px;
 	font-weight: 700;
@@ -1105,7 +1145,21 @@ footer .contact-form button.filled-button:hover {
 	margin-bottom: 18px;
 }
 
-.page-heading span {
+.page-heading1 span {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	display: block;
+}
+.page-heading2 span {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	display: block;
+}
+.page-heading3 span {
 	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -1117,7 +1171,8 @@ footer .contact-form button.filled-button:hover {
 /* team */
 
 .team {
-	background-color: #f7f7f7;
+	background: rgb(139,1,1);
+background: linear-gradient(103deg, rgba(139,1,1,1) 0%, rgba(38,0,0,1) 100%, rgb(255, 255, 255) 100%);;
 	margin-top: 140px;
 	margin-bottom: -140px;
 	padding: 120px 0px;
@@ -1150,6 +1205,23 @@ footer .contact-form button.filled-button:hover {
 
 .team-item .down-content p {
 	margin-bottom: 20px;
+}
+.paps {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-bottom: 30px;
+	width: 100%;
+}
+.bar{
+	height: 20px;
+	border-radius: 10px;
+	width: 40%;
+	display:flex;
+	justify-content: center;
+	margin-left: 30%;
+	margin-top: 20px;
+	background-color: #000000;
 }
 
 
@@ -1211,6 +1283,7 @@ footer .contact-form button.filled-button:hover {
 }
 .tabs-content h4 {
 	font-size: 20px;
+	color: #550000;
 	font-weight: 700;
 	letter-spacing: 0.25px;
 	margin-bottom: 15px;
@@ -1218,7 +1291,7 @@ footer .contact-form button.filled-button:hover {
 }
 .tabs-content p {
   font-size: 14px;
-  color: #7a7a7a;
+  color: #dad8d8;
   margin-bottom: 0px;
 }
 
@@ -1228,12 +1301,13 @@ footer .contact-form button.filled-button:hover {
 
 .contact-information {
 	margin-top: 140px;
+	
 }
 
 .contact-information .contact-item {
 	padding: 60px 30px;
 	background-color: #f7f7f7;
-	text-align: center;
+	
 }
 
 .contact-information .contact-item i {
