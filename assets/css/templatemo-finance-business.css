@@ -81,21 +81,21 @@ a.border-button:hover {
 }
 
 .section-heading h2 {
-	font-size: 36px;
+	font-size: 46px;
 	font-weight: 600;
-	color: #8B0000;
+	color: #550000;
 }
 
 .section-heading em {
-	font-style: normal;
-	color: #8B0000;
+	font-style:normal;
+	color: #550000;
 }
 
 .section-heading span {
 	display: block;
 	margin-top: 15px;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 18px;
 	color: rgb(227, 227, 227);
 	letter-spacing: 1px;
 }
@@ -103,7 +103,7 @@ a.border-button:hover {
 #preloader {
   overflow: hidden;
   background: rgb(139,1,1);
-background: linear-gradient(103deg, rgba(139,1,1,1) 0%, rgba(38,0,0,1) 100%, rgba(0,212,255,1) 100%);;
+background: linear-gradient(103deg, rgba(139,1,1,0.94) 0%, rgba(38,0,0,0.94) 100%, rgb(0, 0, 0, 0.9) 100%);;
   left: 0;
   right: 0;
   top: 0;
@@ -405,15 +405,16 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/2.jpg);
+	
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide_02.jpg);
+	background-image: url(../images/3.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slide_03.jpg);
+	background-image: url(../images/4.jpg);
 }
 
 .Modern-Slider .NextArrow{
@@ -576,10 +577,11 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 .service-item img {
 	width: 100%;
 	overflow: hidden;
+	
 }
 
 .service-item .down-content {
-	background-color: #f7f7f7;
+	background-color: rgb(200, 200, 200, 0.74);
 	padding: 30px;
 }
 
@@ -590,8 +592,14 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 	margin-bottom: 15px;
 }
 
-.service-item .down-content p {
+.service-item .down-content .text  {
 	margin-bottom: 20px;
+	color: rgb(10, 10, 10);
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	letter-spacing: 1px;
+	font-size: 14px;
+	
+	
 }
 
 
@@ -626,11 +634,13 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 
 .fun-facts em {
 	font-style: normal;
-	color: #a4c639;
+	color: #af0101;
 }
 
 .fun-facts p {
 	color: #fff;
+	font-size: 17px;
+	font-family: ''Arial, Helvetica, sans-serif;
 	margin-bottom: 40px;
 }
 
@@ -647,7 +657,7 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 
 .count-digit {
     margin: 5px 0px;
-    color: #a4c639;
+    color: #800000;
     font-weight: 700;
     font-size: 36px;
 }
@@ -663,7 +673,7 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 /* More Info */
 
 .more-info {
-	margin-top: 140px;
+	margin-top: 70px;
 }
 
 .more-info .left-image img {
@@ -672,7 +682,7 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 }
 
 .more-info .more-info-content {
-	background-color: #f7f7f7;
+	background-color: #e4e4e4;
 }
 
 .about-info .more-info-content {
@@ -685,12 +695,12 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 }
 
 .more-info .right-content {
-	padding: 45px 45px 45px 30px;
+	padding: 30px 30px 30px 20px;
 }
 
 .more-info .right-content span {
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 19px;
 	color: #666;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
@@ -698,14 +708,14 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 }
 
 .more-info .right-content h2 {
-	font-size: 36px;
+	font-size: 31px;
 	font-weight: 600;
 	margin-bottom: 35px;
 }
 
 .more-info .right-content em {
 	font-style: normal;
-	color: #a4c639;
+	color: #7b0002;
 }
 
 .more-info .right-content p {
@@ -720,8 +730,8 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 }
 
 .testimonials {
-	margin-top: 140px;
-	background-color: #f7f7f7;
+	margin-top: 40px;
+	background-color: #343434;
 	padding: 140px 0px;
 }
 .testimonial-item .inner-content {
@@ -734,9 +744,14 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 	font-size: 14px;
 	font-weight: 400;
 }
+.testimonial-item p em {
+	font-size: 40px;
+	color: #7b0002;
+}
 .testimonial-item h4 {
 	font-size: 19px;
-	font-weight: 700;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
 	color: #1e1e1e;
 	letter-spacing: 0.5px;
 	margin-bottom: 0px;
@@ -746,7 +761,7 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 	margin-top: 8px;
 	font-weight: 600;
 	font-size: 14px;
-	color: #a4c639;
+	color: #930103;
 }
 .testimonial-item img {
 	max-width: 60px;
@@ -775,11 +790,11 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 }
 
 .callback-form {
-	margin-top: 140px;
+	margin-top: 30px;
 }
 
 .callback-form .contact-form {
-	background-color: #a4c639;
+	background-color: #7b0002;
 	padding: 60px;
 	border-radius: 5px;
 	text-align: center;
@@ -855,11 +870,11 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 
 .callback-form .contact-form button.border-button:hover {
 	background-color: #fff;
-	color: #a4c639;
+	color: #800000;
 }
 
 .contact-us .contact-form button.filled-button {
-	background-color: #a4c639;
+	background-color: #7b0002;
 	color: #fff;
 	border: none;
 	font-size: 13px;
@@ -877,7 +892,7 @@ background-image: linear-gradient(180deg, #000000 0%, #7b0002 50%, #d60000 100%)
 
 .contact-us .contact-form button.filled-button:hover {
 	background-color: #fff;
-	color: #a4c639;
+	color: #800000;
 }
 
 
@@ -951,7 +966,8 @@ footer ul.social-icons li a {
 }
 
 footer ul.social-icons li a:hover {
-	background-color: #a4c639;
+	background-color: #800000;
+	color: #fff;
 }
 
 footer ul.menu-list li {
@@ -969,7 +985,7 @@ footer ul.menu-list li a {
 }
 
 footer ul.menu-list li a:hover {
-	color: #a4c639;
+	color: #800000;
 }
 
 footer .contact-form input {
@@ -1030,7 +1046,7 @@ footer .contact-form ::placeholder {
 footer .contact-form button.filled-button {
 	background-color: transparent;
 	color: #fff;
-	background-color: #a4c639;
+	background-color: #800000;
 	border: none;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -1047,7 +1063,7 @@ footer .contact-form button.filled-button {
 
 footer .contact-form button.filled-button:hover {
 	background-color: #fff;
-	color: #a4c639;
+	color: #800000;
 }
 
 
@@ -1125,7 +1141,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .team-item .down-content span {
-	color: #a4c639;
+	color: #7b0002;
 	font-weight: 600;
 	font-size: 14px;
 	display: block;
@@ -1160,7 +1176,7 @@ footer .contact-form button.filled-button:hover {
 	width: 100%;
 	padding: 30px 30px;
 	display: inline-block;
-	background-color: #a4c639;
+	background-color: #7b0002;
   	font-size: 20px;
   	color: #121212;
   	letter-spacing: 0.5px;
@@ -1221,7 +1237,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .contact-information .contact-item i {
-	color: #a4c639;
+	color: #7b0002;
 	font-size: 48px;
 	margin-bottom: 40px;
 }
@@ -1353,7 +1369,7 @@ footer .contact-form button.filled-button:hover {
 	.navbar .navbar-nav .nav-link.current,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #a4c639!important;
+		color: #7b0002!important;
 		border-bottom: none!important;
 	}
 }
