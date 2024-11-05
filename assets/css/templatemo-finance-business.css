@@ -417,8 +417,10 @@ header .navbar {
 	background-image: url(../images/4.jpg);
 }
 .Modern-Slider .item-4 .img-fill {
-	background-image: url(../images/z.jpg);
+	background-image: url(../images/wb1.jpg);
+	opacity: 0.7;
 }
+
 
 .Modern-Slider .NextArrow{
   position:absolute;
